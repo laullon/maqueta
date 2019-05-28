@@ -1,6 +1,7 @@
 {
-    "sketch": "src/main.ino",
+    "sketch": "src/main/main.ino",
     "board": "arduino:avr:nano",
-    "configuration": "cpu=atmega328",
-    "port": "/dev/cu.wchusbserial14410"
+    "configuration": "cpu=atmega328old",
+    "port": "/dev/cu.wchusbserial1410",
+    "output": "build"
 }
